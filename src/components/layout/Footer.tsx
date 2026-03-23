@@ -4,17 +4,13 @@ const FOOTER_NAV = [
   { label: 'Sobre',       href: '/#sobre',       route: false },
   { label: 'Iniciativas', href: '/#iniciativas',  route: false },
   { label: 'Eventos',     href: '/eventos',       route: true },
-  { label: 'Notícias',    href: '/noticias',      route: true },
   { label: 'Contato',     href: '/#contato',      route: false },
 ];
 
 const SOCIAL_FOOTER = [
-  { label: 'Discord',   href: '#' },
-  { label: 'WhatsApp',  href: '#' },
+  { label: 'WhatsApp',  href: 'https://chat.whatsapp.com/GjDqbE1mxCj5kU9wgZagCv' },
   { label: 'Instagram', href: '#' },
-  { label: 'LinkedIn',  href: '#' },
-  { label: 'GitHub',    href: '#' },
-  { label: 'YouTube',   href: '#' },
+  { label: 'LinkedIn',  href: 'https://www.linkedin.com/company/devlimeira/' },
 ];
 
 export function Footer() {
@@ -26,7 +22,7 @@ export function Footer() {
             <Link to="/" className="logo" aria-label="DevLimeira">
               <img src="/images/logo.png" alt="DevLimeira" className="logo-img" />
             </Link>
-            <p>Comunidade sem fins lucrativos de desenvolvedores de Limeira e região. Conectando pessoas e tecnologia desde 2021.</p>
+            <p>Comunidade sem fins lucrativos de desenvolvedores de Limeira e região. Conectando pessoas e tecnologia desde 2026.</p>
           </div>
 
           <div className="footer-col">

@@ -7,7 +7,6 @@ const NAV_ITEMS = [
   { label: 'Sobre',      href: '/#sobre' },
   { label: 'Iniciativas', href: '/#iniciativas' },
   { label: 'Eventos',    href: '/eventos',   route: true },
-  { label: 'Notícias',   href: '/noticias',  route: true },
   { label: 'Apoio',      href: '/#apoio' },
 ];
 

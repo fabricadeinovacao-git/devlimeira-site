@@ -4,7 +4,6 @@ import {
   About,
   Initiatives,
   EventsPreview,
-  NewsPreview,
   Sponsors,
   Contact,
 } from '../components/sections';
@@ -20,7 +19,6 @@ export function HomePage() {
       <About />
       <Initiatives />
       <EventsPreview />
-      <NewsPreview />
       <Sponsors />
       <Contact />
     </>

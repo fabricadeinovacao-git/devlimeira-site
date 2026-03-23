@@ -7,7 +7,7 @@ import { contactEmail } from '../data/community';
 
 const TABS = [
   { label: 'Todos',     value: 'all' },
-  { label: 'Meetup',    value: 'meetup' },
+  { label: 'DevDay',    value: 'meetup' },
   { label: 'Workshop',  value: 'workshop' },
   { label: 'Festival',  value: 'festival' },
   { label: 'Hackathon', value: 'hackathon' },
@@ -30,7 +30,7 @@ export function EventsPage() {
       <PageHero
         tag="Agenda"
         title={<>Eventos <span className="gradient-text">DevLimeira</span></>}
-        description="Meetups, workshops, hackathons e muito mais. Todos gratuitos, todos abertos à comunidade."
+        description="DevDays, workshops, hackathons e muito mais. Todos gratuitos, todos abertos à comunidade."
       />
 
       <section className="section">

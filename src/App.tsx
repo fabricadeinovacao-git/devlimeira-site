@@ -5,7 +5,6 @@ import { Navbar, Footer } from './components/layout';
 import { BackToTop } from './components/ui';
 import { HomePage } from './pages/HomePage';
 import { EventsPage } from './pages/EventsPage';
-import { NewsPage } from './pages/NewsPage';
 
 function ScrollReset() {
   const { pathname } = useLocation();
@@ -22,7 +21,6 @@ function AppRoutes() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/eventos" element={<EventsPage />} />
-          <Route path="/noticias" element={<NewsPage />} />
         </Routes>
       </main>
       <Footer />

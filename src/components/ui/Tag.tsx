@@ -15,7 +15,7 @@ const variantClass: Record<TagVariant, string> = {
 };
 
 const variantLabel: Record<TagVariant, string> = {
-  meetup:    'Meetup',
+  meetup:    'DevDay',
   workshop:  'Workshop',
   festival:  'Festival',
   hackathon: 'Hackathon',
